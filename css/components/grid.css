@@ -1,0 +1,56 @@
+.game-board {
+  background-image: url(../../sources/images/backgroundGrid_white.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cell {
+  width: 7.4vw;
+  height: 7.3vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 5vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cell,
+.dataCell {
+  width: 7.4vw;
+  height: 7.3vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell,
+.dataCell {
+  background-size: 5vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dataCell {
+  cursor: default;
+  transform: scale(200%);
+  z-index: -2;
+}
+
+.data-row {
+  margin-top: 5px;
+  margin-left: 2.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  margin-top: -1.5px;
+}

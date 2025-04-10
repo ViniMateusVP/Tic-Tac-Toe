@@ -1,0 +1,76 @@
+@import url('./components/grid.css');
+@import url('./components/menu.css');
+@import url('./components/scoreboard.css');
+@import url('./components/warning.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(19, 0, 86);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 1.5vw 0 3vw 0;
+    font-size: 4.5vw;
+    color: white;
+  }
+
+  #main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+    background-color: rgb(231, 229, 229);
+    color: black;
+    padding: 0.8vw 1.5vw;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    left: 50;
+    top: 50;
+    transform: translate(-50%, -50%);
+    transition: all .5s;
+  }
+  
+  .btn a:hover {
+    font-size: 1.5em;
+    padding: .6vw 1.5%;
+    border: 5px solid white;
+  }
+  
+  .backToMenu{
+    margin-top: 4vw;
+  }
+  
+  .backToMenu a {
+    font-size: 1.5em;
+    padding: 0.2vw 2vw;
+    z-index: 10;
+  }
+  
+  .backToMenu a:hover {
+    font-size: 2em;
+    padding: 0.1vw 2.6vw;
+  }
+  
