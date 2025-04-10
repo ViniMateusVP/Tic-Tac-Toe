@@ -21,7 +21,7 @@
   background: linear-gradient(180deg, #250555e5, #1c023ce5);
   width: 100%;
   height: calc((100% / 3) - (1.5% / 3));
-  font-size: 4em;
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,26 @@
 
 .option-level:hover {
   transition: font-size 1s, filter 1s;
-  font-size: 5em;
+  font-size: 5rem;
   filter: brightness(1.5);
   border: 2px solid rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1600px) {
+
+
+  .difficulty-level {
+    width: 25rem;
+    height: 35rem;
+    margin-top: 30rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .option-level {
+    font-size: 3em;
+    height: calc((100% / 3) - (1.5% / 3));
+  }
+
+  
 }

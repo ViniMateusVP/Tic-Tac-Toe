@@ -1,37 +1,38 @@
 .game-info {
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5vw;
-  width: 15vw;
-  height: 5.5vw;
+  margin-top: 5rem;
+  width: 15rem;
+  height: 5.5rem;
   border: 5px solid rgb(255, 255, 255);
   border-radius: 20px;
   overflow: hidden;
   position: relative;
   background: linear-gradient(180deg,  #38106de5, #38106de5, #270751e5);
   color: white;
+  padding: 3rem;
 }
 
 .scoreboard {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: -0.5vw;
+  margin-top: -0.5rem;
   justify-content: space-around;
   display: flex;
-  gap: 2vw;
+  gap: 2rem;
   font-weight: bolder;
 }
 
 .scoreboard img {
-  width: 1.5vw;
+  width: 1.5rem;
 }
 
 .scoreboard div {
   margin: 2.5vh 0 1vh;
   display: flex;
   align-items: center;
-  gap: 0.3vw;
+  gap: 0.3rem;
 }

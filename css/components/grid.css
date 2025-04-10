@@ -7,21 +7,21 @@
 }
 
 .cell {
-  width: 7.4vw;
-  height: 7.3vw;
+  width: 7.4rem;
+  height: 7.3rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: 5vw;
+  background-size: 5rem;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .cell,
 .dataCell {
-  width: 7.4vw;
-  height: 7.3vw;
+  width: 7.4rem;
+  height: 7.3rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
 
 .cell,
 .dataCell {
-  background-size: 5vw;
+  background-size: 5rem;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -54,3 +54,4 @@
   gap: 15px;
   margin-top: -1.5px;
 }
+
