@@ -12,10 +12,7 @@ btnSinglePlayer.addEventListener("click", (e) => {
 
 optionsDifficuly.forEach((option) => {
   option.addEventListener("click", () => {
-    const difficulty = option.textContent.toLowerCase();
-    console.log(window.location.href);
-    console.log(difficulty);
-    
+    const difficulty = option.textContent.toLowerCase();    
     window.location.href = `single-player.html?difficulty=${difficulty}`;
   });
 });
