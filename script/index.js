@@ -13,6 +13,9 @@ btnSinglePlayer.addEventListener("click", (e) => {
 optionsDifficuly.forEach((option) => {
   option.addEventListener("click", () => {
     const difficulty = option.textContent.toLowerCase();
+    console.log(window.location.href);
+    console.log(difficulty);
+    
     window.location.href = `single-player.html?difficulty=${difficulty}`;
   });
 });
@@ -20,7 +23,7 @@ optionsDifficuly.forEach((option) => {
 function handleClickOutside(event) {
   if (
     !btnSinglePlayer.contains(event.target) &&
-    !btnSinglePlayer.contains(event.target)
+    !difficultyLevel.contains(event.target)
   ) {
     difficultyLevel.style.display = "none";
     checkViewDifficuly = false;
